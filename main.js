@@ -53,8 +53,8 @@ const songLocations = [
     Singer: "洪卓立", 
     Lyrics: "一經信和暴雨泄", 
     Location: "信和廣場", 
-    lng: 114.187385, 
-    lat: 22.278546,
+    lng: 114.170292, 
+    lat: 22.31611,
     ImageUrl: "https://13433261150ljj-art.github.io/hklyricsmap/信和中心.jpg",
     Description: "曾经是香港年轻人的潮流圣地，卖明星照片、二手CD、漫画和电子游戏的地方。这里承载了无数80、90后的青春回忆与流行文化启蒙。"
   },
@@ -622,4 +622,5 @@ songLocations.forEach(item => {
 
 map.on('click', () => {
     closeInfoWin();
+
 });
